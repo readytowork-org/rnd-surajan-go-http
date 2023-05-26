@@ -5,7 +5,8 @@ import (
 	"rnd-surajan-go-http/env"
 
 	// Import your lessons.
-	"rnd-surajan-go-http/hello_world"
+	// "rnd-surajan-go-http/hello_world"
+	"rnd-surajan-go-http/http_server"
 )
 
 func main() {
@@ -13,5 +14,6 @@ func main() {
 	// Initialize/Set environment variables.
 	env.Init()
 	// Call methods from packages.
-	hello_world.HelloWorld()
+	// hello_world.HelloWorld()
+	http_server.HttpServer()
 }
